@@ -1105,16 +1105,12 @@ table td img {
 
 .live-cat-img {
     width: 160px;
+    max-width: 160px;
     height: auto;
     object-fit: contain;
     border-radius: 8px;
     flex-shrink: 0;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s ease;
-}
-
-.live-cat-img:hover {
-    transform: scale(1.05);
 }
 
 .live-category h3 {
@@ -1136,7 +1132,8 @@ table td img {
     }
 
     .live-cat-img {
-        width: 100%;
+        width: 160px;
+        max-width: 160px;
         height: auto;
     }
 }
